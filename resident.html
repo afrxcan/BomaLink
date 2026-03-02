@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BomaLink - Resident Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container resident-view">
+        <header class="header">
+            <a href="index.html" class="logo">Boma<span class="accent-text">Link</span></a>
+            <p>Riverside Palms Estate</p>
+        </header>
+
+        <section class="card">
+            <h2>Invite a Guest</h2>
+            <p class="subtitle">Enter your guest's details to generate an entry code.</p>
+            
+            <form id="inviteForm">
+                <div class="form-group">
+                    <label for="guestName">Guest Name</label>
+                    <input type="text" id="guestName" name="guestName" placeholder="e.g., Kamau W." required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guestPhone">Phone Number</label>
+                    <input type="tel" id="guestPhone" name="guestPhone" placeholder="e.g., 0712 345 678" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="visitDate">Date of Visit</label>
+                    <input type="date" id="visitDate" name="visitDate" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Generate Entry Code</button>
+            </form>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 BomaLink. All rights reserved.</p>
+        </footer>
+    </main>
+</body>
+</html>
