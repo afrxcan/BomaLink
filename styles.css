@@ -399,7 +399,10 @@ h1, h2, h3 {
     }
     .hero h1 { font-size: 2.75rem; }
     .hero-cta { justify-content: center; }
-    .hero-image { display: none; }
+    .hero-image { 
+        order: -1;
+        max-width: 100%;
+    }
     
     .nav-container { flex-direction: column; gap: 16px; }
     .nav-links { width: 100%; justify-content: center; font-size: 0.9rem; }
